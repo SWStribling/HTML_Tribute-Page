@@ -1,0 +1,82 @@
+** start of html **
+
+<!DOCTYPE html>
+<html lang="en">
+  <main id="main">
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title id="title">Tribute Page to Captain James Flint - fCC Project</title>
+      <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+      <h1>Captain James 'Flint' McGraw</h1>
+     <!-- <h2>Hero or Villain?</h2> -->
+      <p class="quote">'Nobody will believe it's possible until we show them. But when that day comes, you know what they'll say? They'll say it was inevitable.'
+      <div id="img-div">
+        <img id="image" src="https://images5.alphacoders.com/838/thumb-1920-838198.jpg"/>
+        <figcaption id="img-caption" class="quote">'Everyone is a monster to someone. Since you are so convinced that I am yours. I will be it.'</figcaption>
+        <h2>Background</h2>
+        <ul id="tribute-info">
+          <li>Most of Flint's youth is shrouded in mystery. He is the son of a carpenter and his family was not well off. His grandfather, a fisherman in Padstow, raised him.</li>
+          <li>In the Royal Navy, he served under the command of Admiral Hennessey, who was a father figure to him. McGraw garnered a reputation as a rising star within the Admiralty, as well as for being extremely well read.</li>
+          <li>In 1705 he met Thomas Hamilton, an aristocrat who wanted to clean up piracy in the Bahamas and make New Providence Island a functioning British colony.</li>
+          <li>He began an affair with Hamilton, and people thought the affair he had was actually with his wife Miranda, with whom he was also having an affair. Thomas's political enemies exiled him and "made Thomas disappear" using the affair as an excuse. Flint went to Nassau with Miranda to finish what Thomas started.</li>
+          <li>Once he reached New Providence Island, Flint quickly became the captain of a crew, having met Hal Gates in a tavern and persuading Gates and his crew to elect him. He then became captain of the mighty Walrus. Over the next ten years, he became the most successful pirate on the island, bringing to Nassau more booty than all other pirate captains.</li>
+        </ul>
+        <h2>Notable Quotes</h2>
+          <li class="quote">'This is how they survive. You must know this. You're too smart not to know this.
+They paint the world full of shadows... and then tell their children to stay close to the light. Their light. Their reasons, their judgments. Because in the darkness, there be dragons. But it isn't true. We can prove that it isn't true. In the dark, there is discovery, there is possibility, there is freedom in the dark once someone has illuminated it.'</li>
+          <li class="quote">'All this will be for nothing. We will have been for nothing. Defined by their histories... distorted to fit into their narrative... until all that is left of us are the monsters in the stories they tell their children.'</li>
+          <li class="quote">'But I cannot believe that there is all there is. I cannot believe that we are so poorly made as that.'</li>
+          <li class="quote">'You're an educated man, my lord, but I think it worth reminding you that in most cases a man trying to change the world fails for one simple and unavoidable reason... everyone else.'</li>
+          <li class="quote">'When the king brands us pirates, he doesn't mean to make us adversaries. He doesn't mean to make us criminals. He means to make us monsters. For that's the only way his god-fearing, tax-paying subjects can make sense of men who keep what is theirs and fear no one. When I say there's a war coming, I don't mean with the Scarborough, I don't mean with King George or England. Civilization is coming. And it means to exterminate us.'</li>
+        </ul>
+        <p>Learn more about this fictional hero from his <a id="tribute-link" href="https://villains.fandom.com/wiki/Captain_Flint" target="_blank">fandom page</a>.</p>
+      </div>
+    </body
+  </main>
+</html>
+
+** end of html **
+
+** start of css **
+
+h1, h2, p, li, figcaption {
+  text-align: center;
+  padding: 10px 25px;
+}
+
+h1 {
+  color: #8b0000;
+  font-family: papyrus;
+}
+
+h2 {
+  padding: 0;
+  font-family: papyrus;
+}
+
+.quote {
+  font-style: italic;
+  font-family: brush-script;
+}
+
+body {
+  background: #01080e;
+	color: #E1D9D1;
+	font-family: Helvetica;
+	margin: 0;
+}
+
+img {
+  max-width: 100%;
+  width: 80%;
+  display: block;
+  margin: auto;
+  height: auto;
+	padding: 0.4rem;
+}
+
+** end of css **
+
